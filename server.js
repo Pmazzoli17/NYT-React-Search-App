@@ -16,7 +16,8 @@ app.use(bodyParser.json({type:'application/vnd.api+json'}));
 
 app.use(express.static('./public'));
 
-mongoose.connect('mongodb://localhost/nyt-test');
+mongoose.connect('mongodb://heroku_tpb1vkcz:7emirrd3920g0qif4d8d7agm3o@ds133261.mlab.com:33261/heroku_tpb1vkcz');
+// mongoose.connect('mongodb://localhost/nyt-test');
 
 var db = mongoose.connection;
 
