@@ -5,7 +5,7 @@ var ReactDOM = require('react-dom');
 // Include the Main Component
 var Main = require('./Components/Main')
 
-// This code here allows us to render our main component (in this case "Main")
+// Render the main component ("Main")
 ReactDOM.render(
 
 	<Main />,
