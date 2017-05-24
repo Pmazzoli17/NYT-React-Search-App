@@ -1,0 +1,31 @@
+body {
+    /*background-color: #d6eaea;*/
+    background-image: url("/images/blue-back.jpg");
+}
+
+h2 {
+	font-family: "Lucida Console";
+}
+
+.panel-warning>.panel-heading {
+    color: #990017;
+    background-color: #ffccd4;
+    border-color: #ffccd4;
+}
+
+.panel-warning {
+    border-color: #ffccd4;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #ff4d67;
+    border-color: #ff4d67;
+}
+
+.btn-warning:hover {
+    color: #fff;
+    background-color: #ff0026;
+    border-color: #ff0026;
+}
+
